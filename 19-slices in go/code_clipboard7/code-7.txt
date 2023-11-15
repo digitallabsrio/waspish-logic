@@ -1,0 +1,2 @@
+cities := []string{}
+cities[0] = "Santa Monica"

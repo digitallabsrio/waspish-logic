@@ -1,0 +1,6 @@
+// Apple: 1
+// Banana: 2
+// Cherimoya: 2
+// Durian: 3
+// Elderberry: 3
+// Fig: 4

@@ -1,0 +1,5 @@
+const (
+    CategoryBooks    = 0
+    CategoryHealth   = 1
+    CategoryClothing = 2
+)

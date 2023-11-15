@@ -1,0 +1,8 @@
+type Stereotype int
+
+const (
+    TypicalNoob Stereotype = iota // 0
+    TypicalHipster                // 1
+    TypicalUnixWizard             // 2
+    TypicalStartupFounder         // 3
+)

@@ -1,0 +1,2 @@
+client := &http.Client{}
+resp, err := client.Get("http://gobootcamp.com")

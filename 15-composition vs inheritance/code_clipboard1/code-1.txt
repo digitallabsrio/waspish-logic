@@ -1,0 +1,9 @@
+type User struct {
+	Id             int
+	Name, Location string
+}
+
+type Player struct {
+	User //user will contain all the required attributes
+	GameId int
+}

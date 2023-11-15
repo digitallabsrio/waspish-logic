@@ -1,0 +1,4 @@
+fmt.Println(IgEggs | IgChocolate | IgShellfish)
+
+// output:
+// 19

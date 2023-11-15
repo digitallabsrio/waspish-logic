@@ -1,0 +1,14 @@
+package main
+
+import (
+   "strings"
+   "fmt"
+   "encoding/json"
+   "strconv"
+)
+
+func WordCount(s string) map[string]int {
+   // write your solution here
+  
+  return map[string]int{} //returning an empty map, modify the statement to return the correct answer
+}

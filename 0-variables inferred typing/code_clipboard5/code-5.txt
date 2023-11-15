@@ -1,0 +1,3 @@
+var (
+	name, location, age = "Prince Oberyn", "Dorne", 32
+)

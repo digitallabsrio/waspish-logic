@@ -1,0 +1,6 @@
+select {
+case i := <-c:
+    // use i
+default:
+    // receiving from c would block
+}

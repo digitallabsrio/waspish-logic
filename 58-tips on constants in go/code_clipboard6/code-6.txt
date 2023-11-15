@@ -1,0 +1,6 @@
+func main() {
+    fmt.Println(SoSayethThe(0))
+}
+
+// output:
+// I'm a confused ninja rockstar.

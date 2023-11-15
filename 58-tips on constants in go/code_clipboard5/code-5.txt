@@ -1,0 +1,19 @@
+func SoSayethThe(character Stereotype) string {
+    var s string
+    switch character {
+    case TypicalNoob:
+        s = "I'm a confused ninja rockstar."
+    case TypicalHipster:
+        s = "Everything was better we programmed uphill and barefoot in the snow on the SUTX 5918"
+    case TypicalUnixWizard:
+        s = "sudo grep awk sed %!#?!!1!"
+    case TypicalStartupFounder:
+        s = "exploit compelling convergence to syndicate geo-targeted solutions"
+    }
+    return s
+}
+
+func main() {
+    i := 2
+    fmt.Println(SoSayethThe(i)) // cannot use i (type int) as type Stereotype in argument to SoSayethThe
+}

@@ -1,0 +1,5 @@
+const (
+    CCVisa            = "Visa"
+    CCMasterCard      = "MasterCard"
+    CCAmericanExpress = "American Express"
+)

@@ -1,0 +1,6 @@
+func main() {
+	action := func() { //action is a variable that contains a function
+		//doing something
+	}
+	action()
+}

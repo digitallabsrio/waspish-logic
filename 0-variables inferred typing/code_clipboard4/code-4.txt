@@ -1,0 +1,5 @@
+var (
+	name     = "Prince Oberyn"
+	age      =  32
+	location = "Dorne"
+)

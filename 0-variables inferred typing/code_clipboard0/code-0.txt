@@ -1,0 +1,5 @@
+var (
+	name     string
+	age      int
+	location string
+)

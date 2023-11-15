@@ -1,0 +1,5 @@
+var (
+	name     string = "Prince Oberyn"
+	age      int    =  32
+	location string = "Dorne"
+)

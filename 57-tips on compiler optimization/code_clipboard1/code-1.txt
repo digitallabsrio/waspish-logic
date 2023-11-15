@@ -1,0 +1,14 @@
+$ go build -gcflags=-m t.go
+# command-line-arguments
+./t.go:15: can inline NewUser
+./t.go:21: inlining call to NewUser
+./t.go:10: leaking param: u
+./t.go:10: leaking param: u
+./t.go:12: (*User).Greetings ... argument does not escape
+./t.go:15: leaking param: name
+./t.go:15: leaking param: location
+./t.go:17: &User literal escapes to heap
+./t.go:15: leaking param: name
+./t.go:15: leaking param: location
+./t.go:21: &User literal escapes to heap
+./t.go:22: main ... argument does not escape

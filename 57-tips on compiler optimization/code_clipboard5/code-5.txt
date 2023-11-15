@@ -1,0 +1,1 @@
+$ go build -ldflags "-X main.Build a1064bc" example.go

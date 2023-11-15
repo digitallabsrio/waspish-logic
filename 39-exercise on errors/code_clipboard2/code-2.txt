@@ -1,0 +1,21 @@
+package main
+
+import (
+	"fmt"
+  "strconv"
+  "encoding/json"
+)
+
+type ErrNegativeSqrt float64
+
+func (e ErrNegativeSqrt) Error() string {
+	return fmt.Sprintf("cannot Sqrt negative number")
+}
+
+//Your function should return nil for error when the number can be squared
+//When the number cannot be squared, the function should return 0 along with the error
+func Sqrt(x float64) (float64, error) {
+	//write code here
+  
+  return -1, nil //edit to return the correct answer
+}

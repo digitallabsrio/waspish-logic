@@ -1,0 +1,5 @@
+const (
+    CategoryBooks = iota // 0
+    CategoryHealth       // 1
+    CategoryClothing     // 2
+)

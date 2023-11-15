@@ -1,0 +1,10 @@
+package main
+import "fmt"
+import "strconv"
+import "encoding/json"
+
+func GetSum(array [] int) int {
+  //write code here
+  
+  return 0; //return the sum here
+}

@@ -1,0 +1,8 @@
+func CountAllTheThings(i int) string {
+                return fmt.Sprintf("there are %d things", i)
+}
+
+func main() {
+    n := TypicalHipster
+    fmt.Println(CountAllTheThings(n)) // cannot use TypicalHipster (type Stereotype) as type int in argument to CountAllTheThings
+}
